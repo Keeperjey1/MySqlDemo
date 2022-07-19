@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         String type = "login";
 
         BackgroundWorker back = new BackgroundWorker(this);
-        back.execute(type, username, password) ;
+        back.execute(type,username, password) ;
 
     }
 }
