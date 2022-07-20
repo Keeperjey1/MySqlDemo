@@ -73,14 +73,9 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
     }
 
     @Override
-<<<<<<< HEAD
-    protected void onPostExecute(Void unuseder) {
-        super.onPostExecute(unuseder);
-=======
     protected void onPostExecute(String result) {
         dialog.setMessage(result);
         dialog.show();
->>>>>>> main
     }
 
     @Override
