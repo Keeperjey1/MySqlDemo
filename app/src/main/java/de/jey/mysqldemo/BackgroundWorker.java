@@ -27,7 +27,7 @@ public class BackgroundWorker extends AsyncTask<String, Void, String> {
         String result = "";
         String type = voids[0];
 
-        String login_url = "http://10.0.2.2/buero/login.php";
+        String login_url = "http://10.0.2.2/buero/loginbuero.php";
         String reg_url = "http://10.0.2.2/buero/register.php";
         if (type.equals("login")) {
             try {
