@@ -19,8 +19,8 @@ public class BackgroundWorker extends AsyncTask<String, Void, Void> {
     }
 
     @Override
-    protected void onPostExecute(Void unused) {
-        super.onPostExecute(unused);
+    protected void onPostExecute(Void unuseder) {
+        super.onPostExecute(unuseder);
     }
 
     @Override
